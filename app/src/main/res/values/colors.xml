@@ -4,4 +4,14 @@
     <color name="colorPrimaryDark">#1C223C</color>
     <color name="colorAccent">#1C223C</color>
     <color name="colorProfile">#1C223C</color>
+
+    //blue
+    <color name="bluePrimary">#303f9f</color>
+    <color name="blueDark">#001970</color>
+    <color name="blueLight">#666ad1</color>
+
+    //purple
+    <color name="purplePrimary">#7b1fa2</color>
+    <color name="purpleDark">#4a0072</color>
+    <color name="purpleLight">#ae52d4</color>
 </resources>

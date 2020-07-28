@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login"
+    android:background="@drawable/background"
     tools:context=".SignInActivity">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -35,8 +35,8 @@
             android:layout_marginTop="@dimen/_16dp"
             android:hint="@string/email"
             android:inputType="textEmailAddress"
-            android:textColor="@android:color/white"
-            android:textColorHint="@android:color/white" />
+            android:textColor="@color/purpleDark"
+            android:textColorHint="@color/purpleDark" />
 
         <EditText
             android:id="@+id/et_password_login"
@@ -45,15 +45,15 @@
             android:layout_marginTop="@dimen/_16dp"
             android:hint="@string/password"
             android:inputType="textPassword"
-            android:textColor="@android:color/white"
-            android:textColorHint="@android:color/white" />
+            android:textColor="@color/purpleDark"
+            android:textColorHint="@color/purpleDark" />
 
         <Button
             android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_32dp"
-            android:background="@color/colorPrimaryDark"
+            android:background="@color/purpleDark"
             android:text="@string/login"
             android:textColor="@android:color/white" />
     </LinearLayout>
