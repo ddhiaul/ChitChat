@@ -27,15 +27,15 @@ class WelcomeActivity : AppCompatActivity() {
         }
     }
 
-//    override fun onStart() {
-//        super.onStart()
-//
-//        firebaseUser = FirebaseAuth.getInstance().currentUser
-//        if (firebaseUser != null){
-//            val intent = Intent(this, MainActivity::class.java)
-//            startActivity(intent)
-//            finish()
-//        }
-//
-//    }
+    override fun onStart() {
+        super.onStart()
+
+        firebaseUser = FirebaseAuth.getInstance().currentUser
+        if (firebaseUser != null){
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+    }
 }
