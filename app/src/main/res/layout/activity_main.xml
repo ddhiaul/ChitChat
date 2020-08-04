@@ -20,7 +20,7 @@
             app:popupTheme="@style/AppTheme.PopupOverlay">
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/iv_profile"
+                android:id="@+id/iv_profile_main"
                 android:layout_width="@dimen/_32dp"
                 android:layout_height="@dimen/_32dp"
                 android:src="@drawable/ic_profile"
@@ -41,7 +41,7 @@
             android:id="@+id/tab_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryDark"
+            android:background="@color/purpleDark"
             app:tabIndicatorColor="@android:color/white" />
     </com.google.android.material.appbar.AppBarLayout>
 
